@@ -17,7 +17,7 @@ During the following workflow you may save and exit at some point . The Create W
 •	Select the pencil icon
 •	Expand the tabs as needed to return to your work
 
-.. image:: ../images/image016.png
+.. image:: ../images/image018.png
    :scale: 25 %
    :align: center  
 
@@ -31,7 +31,7 @@ Right click on the admin@vro.f5demo.com container.
 •	Enter CustomWorkflows in the Name field
 •	click Ok. 
 
-.. image:: ../images/image017.png
+.. image:: ../images/image019.png
    :scale: 25 %
    :align: center  
 
@@ -44,7 +44,7 @@ Right click on the CustomWorkflows folder
 •	Choose OK
 •	Select Save  
 
-.. image:: ../images/image018.png
+.. image:: ../images/image020.png
    :scale: 25 %
    :align: center  
   
@@ -54,21 +54,21 @@ Create Pool and add it to Custom Workflow
 Select the Schema Tab
 Expand the All Workflows heading on the left and navigate to F5/Ltm/Pool 
 
-.. image:: ../images/image019.png
+.. image:: ../images/image021.png
    :scale: 25 %
    :align: center  
    
 Choose the Setup button in the upper right(This will bring up the Promote Workflow 
 Input Parameters)
 
-.. image:: ../images/image020.png
+.. image:: ../images/image022.png
    :scale: 25 %
    :align: center  
   
   
 Choose Skip in the Rest all binding to: section 
 
-.. image:: ../images/image021.png
+.. image:: ../images/image023.png
    :scale: 25 %
    :align: center  
    
