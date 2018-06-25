@@ -21,7 +21,7 @@ Contents:
    :maxdepth: 2
    :caption: introduction
 
-   introduction/Intro
+   introduction/intro
    introduction/Lab Architecture
 
 .. toctree::
