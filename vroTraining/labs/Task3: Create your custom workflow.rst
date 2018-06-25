@@ -387,10 +387,10 @@ Right Click on the **CustomWorkflows**>**CustomWF1** workflow
 
 
 Verify your new virtual and pool on your BIG-IP  GUI
-•	https://10.128.1.245
-o	Username: admin	
-o	Password: admin
-•	Browse through the LTM components (Virtual Server, Pool, etc) 
+ -	https://10.128.1.245
+ -	Username: admin	
+ -	Password: admin
+ -	Browse through the LTM components (Virtual Server, Pool, etc) 
 
 Verify your new virtual from the Client GUI
 
