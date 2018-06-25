@@ -54,21 +54,21 @@ Create Pool and add it to Custom Workflow
 Select the Schema Tab
 Expand the All Workflows heading on the left and navigate to F5/Ltm/Pool 
 
-.. image:: ../images/image021.png
+.. image:: ../images/image022.png
    :scale: 25 %
    :align: center  
    
 Choose the Setup button in the upper right(This will bring up the Promote Workflow 
 Input Parameters)
 
-.. image:: ../images/image022.png
+.. image:: ../images/image023.png
    :scale: 25 %
    :align: center  
   
   
 Choose Skip in the Rest all binding to: section 
 
-.. image:: ../images/image023.png
+.. image:: ../images/image024.png
    :scale: 25 %
    :align: center  
    
