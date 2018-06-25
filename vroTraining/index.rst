@@ -28,9 +28,9 @@ Contents:
    :maxdepth: 2
    :caption: Labs
 
-   Labs/taks1
-   Labs/task2
-   Labs/task3
+   Labs/Taks1
+   Labs/Task2
+   Labs/Task3
 
 .. toctree::
    :maxdepth: 2
