@@ -1,0 +1,12 @@
+
+Introduction
+=================
+
+Welcome to the vRO Plug-in for BIG-IP by Blue Medora lab guide.  We hope you find this document valuable.  This plug-in is built, supported and maintained by Blue Medora – a company with expertise in third party integrations into VMware vRealize Suite.  F5 and Blue Medora have collaborated very closely on the design, construction and testing of this plugin with reviews from VMware.  
+ 
+As background, F5 produced an unsupported, DevCentral-distributed plug-in for LTM and GTM with vRO v6 as early as 2014.  This was an attempt to assess the market demand for orchestrating BIG-IP with VMware vRealize Orchestrator.  The response was very strong – customers wanted the plug-in and began deploying it in their test labs.  The challenge was that when it came to deploying it in production, many of the larger customers had concerns that it wasn’t supported officially by F5; and thus began a two year effort to find a way to support it.  The end result was leveraging a very close technology partner of ours, Blue Medora, to rebuild the plug-in using all the feedback that F5 had collected over the past two 
+years, enhance and expand it accordingly. 
+ 
+In case you didn’t know, vRO is a popular orchestration engine that comes with every vSphere license.  It’s free to all vSphere customers. It’s a powerful tool that more and more customers are leveraging – from the very big to the medium-sized or smaller.  Not only that, but anything we do with vRO is automatically bubbled up into the higher-order vRealize Automation product.  vRA contains the self-service portal that enables users to request applications, and this trickles down to vRO, which then trickles down to all of the relevant services necessary to provision and deploy that application (including BIG-IP).   
+ 
+The deployment process is relatively quick once a customer has vRO up and running. This plug-in is a bit like a lego set.  We’re giving customers a toolkit of lego blocks – from which they can build an almost infinite set of workflows by combining individual atomic actions together.  Does it require some effort to build the workflows you really want?  Yes.  But this is not necessarily something that needs to be outsourced – most IT shops can assemble these workflows on their own, and we encourage them to do so.  We have provided a number of pre-built workflows in their plug-in, however the sky really is the limit.
