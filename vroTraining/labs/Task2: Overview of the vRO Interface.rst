@@ -21,18 +21,18 @@ Plugin”. You can explore the bindings of input and outputs to the actual APIs.
 *	Right click the mouse over the licensePlugin and select the small icon above and to the right
 
 .. image:: ../images/image013.png
-   :scale: 50 %
+   :scale: 25 %
    :align: center  
 
 *	Review the, Out and Scripting tabs on the new window  In parameters mapped to the variables for this particular action. 
 
 .. image:: ../images/image014.png
-   :scale: 50 %
+   :scale: 25 %
    :align: center  
    
 * Use the pulldown to access the Administrator View   
 
 .. image:: ../images/image015.png
-   :scale: 50 %
+   :scale: 25 %
    :align: center  
    
