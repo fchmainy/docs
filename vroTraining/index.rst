@@ -21,16 +21,16 @@ Contents:
    :maxdepth: 2
    :caption: Introduction
 
-   introduction/Overview
-   introduction/Lab Architecture
+   Introduction/Overview
+   Introduction/Lab Architecture
 
 .. toctree::
    :maxdepth: 2
    :caption: Labs
 
-   labs/taks1
-   labs/task2
-   labs/task3
+   Labs/taks1
+   Labs/task2
+   Labs/task3
 
 .. toctree::
    :maxdepth: 2
