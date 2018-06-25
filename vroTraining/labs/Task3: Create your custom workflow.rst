@@ -131,34 +131,36 @@ Mouse over the Create Pool workflow on the Schema tab
    :align: center   
    
 Choose the Pencil icon above the Create Pool workflow
+Choose the OUT tab
 
 .. image:: ../images/image038.png
    :scale: 25 %
    :align: center  
 
-.. image:: ../images/image039.png
+.. image:: ../images/image040.png
    :scale: 25 %
    :align: center  
-Choose the OUT tab 
+ 
  
 Double Click the actionResult [out-parameter] under Source parameter 
-.. image:: ../images/image037.png
+
+.. image:: ../images/image041.png
    :scale: 25 %
    :align: center  
 
 Choose the Create parameter/attribute in workflow link 
-.. image:: ../images/image038.png
+.. image:: ../images/image042.png
    :scale: 25 %
    :align: center  
  
  Enter **F5Pool** in the Name field (This will create an **F5Pool** output variable that references the pool that has just been created)
- .. image:: ../images/image039.png
+ .. image:: ../images/image043.png
    :scale: 25 %
    :align: center  
 Choose Ok > Close > Save 
 
 Choose the Green Run triangle 
- .. image:: ../images/image040.png
+ .. image:: ../images/image044.png
    :scale: 25 %
    :align: center  
 
