@@ -101,21 +101,19 @@ You see the 3 parameters that we set to input appear as input parameters.
    :align: center   
 Choose **Cancel**
 
-Choose the General tab
 
+
+Choose the General tab
 You see the loadBalancingmode and partition set to the values we defined define. (view the full screen)
 
 .. image:: ../images/image032.png
    :scale: 25 %
    :align: center  
 
-Choose the Presentation tab(Each variable is shown with 3 parameters (type)name description)
-
-Choose monitor and enter Monitor to be used by LTM Pool in the description. 
-
-Choose name and enter Name for LTM objects created by this WF  name for the description. 
- 
-Choose bigip and enter BigIP to be configured in the description field.
+Choose the Presentation tab(Each variable is shown with 3 parameters (type, name, description):
+- Choose **monitor** and enter **Monitor to be used by LTM Pool** in the description. 
+- Choose **name** and enter **Name for LTM objects created by this WF** for the description. 
+- Choose bigip and enter **BigIP to be configured** in the description field.
 
 .. image:: ../images/image033.png
    :scale: 25 %
@@ -123,19 +121,21 @@ Choose bigip and enter BigIP to be configured in the description field.
 
 Reorder the variables so they appear in this order: bigip, name, and monitor(You can rearrange the variable order by dragging and dropping the variable names.) 
 
-.. image:: ../images/image034.png
-   :scale: 25 %
-   :align: center  
+
 Choose the Schema tab 
 
 Mouse over the Create Pool workflow on the Schema tab
- 
+.. image:: ../images/image034.png
+   :scale: 25 %
+   :align: center   
 Choose the Pencil icon above the Create Pool workflow
-.. image:: ../images/image035.png
+
+.. image:: ../images/image036.png
    :scale: 25 %
    :align: center  
 
-.. image:: ../images/image036.png
+
+.. image:: ../images/image037.png
    :scale: 25 %
    :align: center  
 Choose the OUT tab 
