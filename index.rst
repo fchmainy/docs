@@ -19,19 +19,18 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting Started
+   :caption: Introduction
 
-   getting-started/introduction
-   getting-started/useful IPs and passwords
-   getting-started/labs
+   introduction/Overview
+   introduction/Lab Architecture
 
 .. toctree::
    :maxdepth: 2
    :caption: Labs
 
-   labs/taks 1: Access the vRO environment
-   labs/task 2: Tour the vRO interface
-   labs/task 3: Create a custom workflow
+   labs/taks1
+   labs/task2
+   labs/task3
 
 .. toctree::
    :maxdepth: 2
