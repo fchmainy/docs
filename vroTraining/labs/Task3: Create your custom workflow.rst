@@ -73,11 +73,10 @@ Choose Skip in the **Reset all binding to: section**
    :align: center  
    
 
-.. Choose Value for loadBalancingMode and enter round-robin  (This will be the default load balancing algorithm used) 
+*Choose Value for loadBalancingMode and enter round-robin  (This will be the default load balancing algorithm used)* 
+*Choose Value for partition and enter Common  (This will force all objects created by CustomWF1 to be put in the Common partition)* 
  
-.. Choose Value for partition and enter Common  (This will force all objects created by CustomWF1 to be put in the Common partition) 
- 
-Select Input for monitor, name and bigip  (scroll down for the last 2) 
+Select Input for monitor, name and bigip  (scroll down for the last 2) :
 
 .. image:: ../images/image027.png
    :scale: 25 %
