@@ -80,7 +80,7 @@ default load balancing algorithm used)
 CustomWF1 to be put in the Common partition) 
  
 Select Input for monitor, name and bigip  (scroll down for the last 2) 
-.. image:: ../images/image022.png
+.. image:: ../images/image027.png
    :scale: 25 %
    :align: center  
       
@@ -92,13 +92,13 @@ Modify presentation layer of custom workflow
 --------------------------------------------
 Choose the Green Run triangle to start your workflow 
 
-.. image:: ../images/image022.png
+.. image:: ../images/image028.png
    :scale: 25 %
    :align: center      
 
 You see the 3 parameters that we set to input appear as input parameters. 
 
-.. image:: ../images/image023.png
+.. image:: ../images/image029.png
    :scale: 25 %
    :align: center   
 Choose **Cancel**
@@ -106,7 +106,7 @@ Choose **Cancel**
 Choose the General tab
 You see the loadBalancingmode and partition set to the values we defined define. (view the full screen)
 
-.. image:: ../images/image024.png
+.. image:: ../images/image030.png
    :scale: 25 %
    :align: center  
 
@@ -118,13 +118,13 @@ Choose name and enter Name for LTM objects created by this WF  name for the desc
  
 Choose bigip and enter BigIP to be configured in the description field.
 
-.. image:: ../images/image025.png
+.. image:: ../images/image031.png
    :scale: 25 %
    :align: center  
 
 Reorder the variables so they appear in this order: bigip, name, and monitor(You can rearrange the variable order by dragging and dropping the variable names.) 
 
-.. image:: ../images/image026.png
+.. image:: ../images/image032.png
    :scale: 25 %
    :align: center  
 Choose the Schema tab 
@@ -132,38 +132,38 @@ Choose the Schema tab
 Mouse over the Create Pool workflow on the Schema tab
  
 Choose the Pencil icon above the Create Pool workflow
-.. image:: ../images/image027.png
+.. image:: ../images/image033.png
    :scale: 25 %
    :align: center  
 
-.. image:: ../images/image028.png
+.. image:: ../images/image034.png
    :scale: 25 %
    :align: center  
 Choose the OUT tab 
  
 Double Click the actionResult [out-parameter] under Source parameter 
-.. image:: ../images/image029.png
+.. image:: ../images/image035.png
    :scale: 25 %
    :align: center  
 
 Choose the Create parameter/attribute in workflow link 
-.. image:: ../images/image030.png
+.. image:: ../images/image036.png
    :scale: 25 %
    :align: center  
  
  Enter **F5Pool** in the Name field (This will create an **F5Pool** output variable that references the pool that has just been created)
- .. image:: ../images/image031.png
+ .. image:: ../images/image037.png
    :scale: 25 %
    :align: center  
 Choose Ok > Close > Save 
 
 Choose the Green Run triangle 
- .. image:: ../images/image032.png
+ .. image:: ../images/image038.png
    :scale: 25 %
    :align: center  
 
 The order and description of the input parameters has been updated.
- .. image:: ../images/image033.png
+ .. image:: ../images/image039.png
    :scale: 25 %
    :align: center 
 Choose **Cancel** 
@@ -176,7 +176,7 @@ Expand the All Workflows heading on the left and navigate to F5/Ltm/Pool
 Drag and drop the Create Pool Member workflow to the right of the Create Pool workflow 
 
 Choose Setup in the upper right
- .. image:: ../images/image035.png
+ .. image:: ../images/image040.png
    :scale: 25 %
    :align: center 
 
@@ -186,7 +186,7 @@ Chose Input for **address** and **port**(This will add the address and port fiel
  
 Enter **lamp11** as the value for node (..This is the pool member object you created as part of the Create Pool Member workflow earlier..) 
 
- .. image:: ../images/image038.png
+ .. image:: ../images/image041.png
    :scale: 25 %
    :align: center 
  Choose **Promote**   
@@ -194,7 +194,7 @@ Enter **lamp11** as the value for node (..This is the pool member object you cre
 Mouse over the Create Pool Member workflow 
  
 Choose the Pencil icon to edit 
- .. image:: ../images/image041.png
+ .. image:: ../images/image042.png
    :scale: 25 %
    :align: center   
 Choose the **IN** tab 
@@ -209,7 +209,7 @@ Repeat steps for the following parameters:
  pool:F5Pool 
  partition:partition 
 
- .. image:: ../images/image042.png
+ .. image:: ../images/image043.png
    :scale: 25 %
    :align: center   
 Choose **Close** > **Save**
