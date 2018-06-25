@@ -3,19 +3,19 @@ Create a custom workflow to create a simple Load Balancing configuration
 ========================================================================
 
 You will learn how to create a custom Workflow to complete the following: 
-•	Create a Pool 
-•	Add members to the new Pool 
-•	Create a VIP 
-•	Enable SNAT the VIP 
+-	Create a Pool 
+-	Add members to the new Pool 
+-	Create a VIP 
+-	Enable SNAT the VIP 
 
 
 Process Tip
 -----------
 During the following workflow you may save and exit at some point . The Create Workflow in this exercise assumes you stay in the Edit mode for the entire process. In the event that you exit the edit mode it is a simple task to get back to it
-•	Select the Workflow you wish to edit
-•	Select the schema tab
-•	Select the pencil icon
-•	Expand the tabs as needed to return to your work
+-	Select the Workflow you wish to edit
+-	Select the schema tab
+-	Select the pencil icon
+-	Expand the tabs as needed to return to your work
 
 .. image:: ../images/image018.png
    :scale: 25 %
@@ -27,9 +27,9 @@ Create a CustomWorkflows Folder
 Note: This step has been completed. Sample workflows are in the folder	
 
 Right click on the admin@vro.f5demo.com container. 
-•	Choose Add Folder. 
-•	Enter CustomWorkflows in the Name field
-•	click Ok. 
+-	Choose Add Folder. 
+-	Enter CustomWorkflows in the Name field
+-	click Ok. 
 
 .. image:: ../images/image019.png
    :scale: 25 %
@@ -39,10 +39,10 @@ Right click on the admin@vro.f5demo.com container.
 Create a Custom Workflow 
 --------------------------
 Right click on the CustomWorkflows folder 
-•	Choose New Workflow 
-•	Enter CustomWF1 
-•	Choose OK
-•	Select Save  
+-	Choose New Workflow 
+-	Enter CustomWF1 
+-	Choose OK
+-	Select Save  
 
 .. image:: ../images/image020.png
    :scale: 25 %
@@ -85,8 +85,7 @@ Select Input for monitor, name and bigip  (scroll down for the last 2)
    :align: center  
       
       
-Choose Promote 
-Choose Save 
+Choose **Promote** > **Save** 
  
 
 Modify presentation layer of custom workflow	
@@ -102,7 +101,7 @@ You see the 3 parameters that we set to input appear as input parameters.
 .. image:: ../images/image023.png
    :scale: 25 %
    :align: center   
-Choose Cancel
+Choose **Cancel**
 
 Choose the General tab
 You see the loadBalancingmode and partition set to the values we defined define. (view the full screen)
@@ -170,14 +169,14 @@ The order and description of the input parameters has been updated.
 Choose **Cancel** 
 
 
-Add the Create Pool Member workflow to the custom workflow
+Add the created Pool Member workflow to the custom workflow
 ----------------------------------------------------------
 Expand the All Workflows heading on the left and navigate to F5/Ltm/Pool 
  
 Drag and drop the Create Pool Member workflow to the right of the Create Pool workflow 
 
 Choose Setup in the upper right
- .. image:: ../images/image034.png
+ .. image:: ../images/image035.png
    :scale: 25 %
    :align: center 
 
@@ -187,7 +186,7 @@ Chose Input for **address** and **port**(This will add the address and port fiel
  
 Enter **lamp11** as the value for node (..This is the pool member object you created as part of the Create Pool Member workflow earlier..) 
 
- .. image:: ../images/image035.png
+ .. image:: ../images/image038.png
    :scale: 25 %
    :align: center 
  Choose **Promote**   
@@ -195,7 +194,7 @@ Enter **lamp11** as the value for node (..This is the pool member object you cre
 Mouse over the Create Pool Member workflow 
  
 Choose the Pencil icon to edit 
- .. image:: ../images/image036.png
+ .. image:: ../images/image041.png
    :scale: 25 %
    :align: center   
 Choose the **IN** tab 
@@ -210,7 +209,7 @@ Repeat steps for the following parameters:
  pool:F5Pool 
  partition:partition 
 
- .. image:: ../images/image037.png
+ .. image:: ../images/image042.png
    :scale: 25 %
    :align: center   
 Choose **Close** > **Save**
